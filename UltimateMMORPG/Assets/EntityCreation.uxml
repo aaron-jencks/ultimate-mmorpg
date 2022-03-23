@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: column; align-items: stretch; justify-content: flex-start;">
+        <ui:TextField picking-mode="Ignore" label="Entity Name" name="entityName" />
+        <ui:TextField picking-mode="Ignore" label="Sprite Image Path" name="tilePath" />
+        <ui:Toggle label="Is Solid?" name="isSolid" value="true" />
+        <ui:VisualElement style="align-items: auto; flex-direction: row-reverse;">
+            <ui:Button text="Cancel" display-tooltip-when-elided="true" name="cancelButton" />
+            <ui:Button text="Create" display-tooltip-when-elided="true" name="createButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
